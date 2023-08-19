@@ -2,7 +2,7 @@
 可视化技术——CAM  
 CAM论文：[Learning Deep Features for Discriminative Localization](https://arxiv.org/pdf/1512.04150.pdf)  
 GAP论文：[Network In Network](https://arxiv.org/pdf/1312.4400.pdf)  
-
+参考： [https://github.com/zhoubolei/CAM](https://github.com/zhoubolei/CAM)
 
 ![alt text](cam.jpg)
 
