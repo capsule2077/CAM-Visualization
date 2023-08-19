@@ -4,7 +4,7 @@ CAM论文：[Learning Deep Features for Discriminative Localization](https://arx
 GAP论文：[Network In Network](https://arxiv.org/pdf/1312.4400.pdf)  
 
 
-![alt text](D:\Pycharm\yolov5-master\cam.jpg)
+![alt text](cam.jpg)
 
 ## 说明
 `CAM_VGG.py`使用了VGG16，修改了原始网络的平均池化层和分类层。使用预训练的权重在MINI-ImageNet数据集上做100分类的微调。
