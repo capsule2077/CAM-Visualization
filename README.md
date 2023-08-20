@@ -9,7 +9,7 @@ GAP论文：[Network In Network](https://arxiv.org/pdf/1312.4400.pdf)
 ## 说明
 原论文的代码比较老了，用的pytorch版本比较旧，所以重写了一遍，用了更新的特征提取方式。  
 
-`CAM_VGG.py`使用了VGG16，修改了原始网络的平均池化层和分类层。使用预训练的权重在MINI-ImageNet数据集上做100分类的微调。
+`CAM_VGG.py`使用了VGG16，修改了原始网络的平均池化层和分类层。使用预训练的权重在MINI-ImageNet数据集上做100分类的微调。MINI-ImageNet数据集可以参考:[blog](https://blog.csdn.net/m0_46412065/article/details/128724252).
 只微调全连接层，其余层保持不变。权重文件：[VGG16_100.pth](https://pan.baidu.com/s/1XE2RLEzDn8Xvw8wY0pTo1A?pwd=3v0i 
 ),提取码：3v0i
 
